@@ -187,6 +187,8 @@
     height: 20px;
 }
 
+/* ESERCIZIO 12 */
+
 .ex-12-button:hover .ex-12-top-white{
     animation: top-left 2s ;
 }
@@ -202,5 +204,59 @@
 @keyframes bottom-right {
     50%{
         right: 69%;
+    }
+}
+
+/* ESERCIZIO 13 */
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: ex-13-bottom 3s;
+}
+@keyframes ex-13-bottom {
+    0%{
+        right: 20%;
+        bottom: -10px;
+    }
+    30%{
+        right: 80%;
+        bottom: -10px;
+    }
+    45%{
+        right: 80%;
+        bottom: 50px;
+    }
+    70%{
+        right: -2%;
+        bottom: 50px;
+    }
+    90%{
+        right: -2%;
+        bottom: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: ex-13-top 3s;
+}
+@keyframes ex-13-top {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    30%{
+        top: -10px;
+        left: 100%;
+    }
+    45%{
+        top: 63px;
+        left: 100%;
+    }
+    70%{
+        top: 63px;
+        left: -5%;
+    }
+    90%{
+        top: -10px;
+        left: -5%;
     }
 }

@@ -133,10 +133,27 @@
     }
 }
 
+/* ESERCIZIO 11 */
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon {
+    font-size: 60px;
+}
+
+.ex-11-icon:hover{
+    animation: semi-rotation 2s;
+    /* animation-timing-function: cubic-bezier(1,1,2,2); */
+}
+
+@keyframes semi-rotation {
+    95% {
+        transform: rotate(270deg);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
